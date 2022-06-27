@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* HEAD */
+#area-head {
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+#area-logo, #area-links {
+    padding: 10px;
+}
+
+/* ESTILOS */
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+h2 {
+    color: #f7b600;
+}
+h3  {
+    color: #565656;
+    background-color: #CCC;
+    padding: 5px;
+}
+p {
+    text-align: justify;
+}
+.branco {
+    color: white;
+}
+.data {
+    font-size: 0.8em;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+    padding: 8px 12px;
+}
+#area-head a:link, #area-head a:visited {
+    color: white;
+}
+#area-head a:hover {
+    color: #f7b600;
+    background: white;
+}
+
+/* ÁREA PRINCIPAL */
+#area-principal {
+    margin: auto;
+    width: 920px;
+    padding: 15px;
+}
+
+/* postagens */
+#area-postagens, #area-lateral {
+    background-color: white;
+}
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+#area-lateral {
+    width: 240px;
+    height: 1326.44px;
+    float: right;
+}
+
+/* postagem */
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* link */
+#area-postagens a {
+    text-decoration: underline;
+    padding: 0;
+}
+#area-postagens a:link, #area-postagens a:visited {
+    color: #f7b600;
+}
+#area-postagens a:hover{
+    color:#4e4e4e;
+}
+
+/* ÁREA LATERAL */
+.conteudo-lateral {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted black;
+}
+/* Lateral - links */
+#area-lateral a {
+    text-decoration: underline;
+    padding: 0;
+}
+#area-lateral a:link, #area-lateral a:visited {
+    color: #f7b600;
+}
+#area-lateral a:hover {
+    color:#4e4e4e;
+}
+
+/* rodape */
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #CCC;
+
+}
