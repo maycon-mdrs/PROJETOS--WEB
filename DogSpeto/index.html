@@ -10,6 +10,9 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
+    <!-- ICON -->
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -21,36 +24,48 @@
 <body>
     <main class="container">
        <header class="container-header">
-            <img class="logo" src="images/logo.png" alt="Logo">
+            <img class="logo" src="images/logo-b.png" alt="Logo">
        </header>
 
         <section class="container-section">
             <div>
-                <button type="button" class="social-btn">
-                    <div class="teste"><i class="bi bi-instagram"></i></div>
-                    <div><a href="#">Cardápio</a></div>
-                </button>
+                <a href="#">
+                    <button type="button" class="social-btn-t">
+                        <iconify-icon icon="material-symbols:restaurant-menu" width="22" height="22"></iconify-icon>
+                        <span>Cardápio</span>
+                    </button>
+                </a>
             </div>
         </section>
 
         <section class="container-section">
             <div>
-                <button type="button" class="social-btn">
-                    <i class="bi bi-instagram"></i>
-                    <a href="#">Instagram</a>
-                </button>
+                <a href="https://www.instagram.com/dogspetonatal/">
+                    <button type="button" class="social-btn-t">
+                        <iconify-icon icon="mdi:instagram" width="22" height="22"></iconify-icon>
+                        <span>Instagram</span>
+                    </button>
+                </a> 
             </div>
         </section>
 
         <section class="container-section">
             <div>
-                <button type="button" class="social-btn"><a href="#">Ifood</a></button>
+                <a href="https://www.ifood.com.br/delivery/natal-rn/dogspeto-natal-lagoa-nova/">
+                    <button type="button" class="social-btn-t">
+                        <iconify-icon icon="simple-icons:ifood" width="18" height="18"></iconify-icon>
+                        <span>Ifood</span>                    
+                    </button>
+                </a>
             </div>
         </section>
 
         <section class="container-section">
             <div class="localizacao-conteiner">
-                <i class="bi bi-geo-alt-fill"></i>
+                <a href="#">
+                    <iconify-icon icon="material-symbols:pin-drop-rounded" width="20" height="20"></iconify-icon>
+                    <span class="span-white"><b class="span-red">PARK DU SOL</b> - Av. Estrela do Mar, 2183 - Ponta Negra, Natal - RN, 59090-400</span>
+                </a>
             </div>
         </section>
 
